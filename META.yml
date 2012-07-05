@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Task-Biodiverse
-version:            0.16001
+version:            0.17
 abstract:           Task for Biodiverse dependencies
 author:
     - Shawn Laffan (shawn.laffan@unsw.edu.au)
@@ -13,17 +13,15 @@ build_requires:
 requires:
     Browser::Open:        0
     Data::DumpXML:        0
-    Geo::ShapeFile:       0
     Gnome2::Canvas:       0
     Gtk2::GladeXML:       0
     LWP::Simple:          0
     Task::Biodiverse::NoGUI:  0
-    Tree::R:              0
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
