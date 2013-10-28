@@ -1,27 +1,30 @@
---- #YAML:1.0
-name:               Task-Biodiverse
-version:            0.17
-abstract:           Task for Biodiverse dependencies
+---
+abstract: 'Task for Biodiverse dependencies'
 author:
-    - Shawn Laffan (shawn.laffan@unsw.edu.au)
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Shawn Laffan (shawn.laffan@unsw.edu.au)'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Browser::Open:        0
-    Data::DumpXML:        0
-    Gnome2::Canvas:       0
-    Gtk2::GladeXML:       0
-    LWP::Simple:          0
-    Task::Biodiverse::NoGUI:  0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+  ExtUtils::Depends: 0
+  ExtUtils::PkgConfig: 0
+  Glib: 0
+  Gtk2: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120630'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Biodiverse
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Browser::Open: 0
+  Data::DumpXML: 0
+  Gnome2::Canvas: 0
+  Gtk2::GladeXML: 0
+  LWP::Simple: 0
+  Task::Biodiverse::NoGUI: 0.19
+version: 0.19

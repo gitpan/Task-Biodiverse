@@ -10,11 +10,17 @@ WriteMakefile(
         'ABSTRACT' => 'Task for Biodiverse dependencies',
         ) : (),
     PREREQ_PM => {
-        "Task::Biodiverse::NoGUI" => "0",
+        "Task::Biodiverse::NoGUI" => "0.19",
         "Data::DumpXML" => "0",
         "Gtk2::GladeXML" => "0",
         "Gnome2::Canvas" => "0",
         "Browser::Open" => "0",
         "LWP::Simple" => "0",
-    }
+    },
+    BUILD_REQUIRES => {
+        "ExtUtils::Depends" => "0",
+        "ExtUtils::PkgConfig" => "0",
+        "Glib" => "0",
+        "Gtk2" => "0",
+    },
 );
